@@ -1,0 +1,11 @@
+.app {
+  background-color: #1b1c1e;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Inter", "Arial";
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #d5d9d4;
+}

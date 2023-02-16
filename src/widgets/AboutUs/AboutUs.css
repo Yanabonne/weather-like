@@ -1,0 +1,25 @@
+.about-us {
+  display: flex;
+  align-items: center;
+  margin: 40px 0;
+  flex-direction: column;
+}
+
+.about-us__title {
+  text-align: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 1.25;
+}
+
+.about-us__description {
+  text-align: center;
+  width: 800px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 1.25;
+}
