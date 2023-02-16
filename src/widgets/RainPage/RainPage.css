@@ -7,17 +7,6 @@
   box-sizing: border-box;
 }
 
-.rain__title {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 900;
-  font-size: 75px;
-  line-height: 1.25;
-  max-width: 850px;
-  margin: 0 0 0 25px;
-  padding-left: 180px;
-}
-
 .rain__image {
   position: absolute;
   top: 0;
@@ -27,6 +16,22 @@
   background-repeat: repeat;
   background-size: 600px;
   will-change: transform;
+}
+
+/* .rain__image_base {
+  background-image: url("../../images/background-base.svg");
+  transform: translate3d(0, calc(var(--scrollTop) / 2), 0);
+} */
+
+.rain__title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 75px;
+  line-height: 1.25;
+  max-width: 850px;
+  margin: 0 0 0 25px;
+  padding-left: 180px;
 }
 
 .rain__image_middle {

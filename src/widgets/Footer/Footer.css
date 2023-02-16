@@ -1,0 +1,54 @@
+.footer {
+  border-top: 1px #d5d9d4 solid;
+  width: 1260px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 20px;
+  padding: 40px 30px 40px;
+  background-color: #1b1c1e;
+  box-sizing: border-box;
+}
+
+.footer__author {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 1.25;
+  margin: 0;
+}
+
+.footer__icons {
+  display: flex;
+  gap: 15px;
+}
+
+.footer__icon {
+  width: 70px;
+  height: 70px;
+  outline: none;
+  border: none;
+  background-color: #1b1c1e;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.footer__icon_github {
+  background-image: url("../../images/github.svg");
+}
+
+.footer__icon_gmail {
+  background-image: url("../../images/gmail.svg");
+}
+
+.footer__icon_tg {
+  background-image: url("../../images/tg.svg");
+}
+
+@media screen and (max-width: 1280px) {
+  .footer {
+    width: 100%;
+  }
+}

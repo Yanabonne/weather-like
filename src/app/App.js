@@ -3,6 +3,7 @@ import './App.css';
 
 import Header from '../widgets/Header/Header.js';
 import AboutProject from '../pages/AboutProject/AboutProject.js';
+import Footer from "../widgets/Footer/Footer";
 
 function App() {
   React.useEffect(() => {
@@ -15,6 +16,7 @@ function App() {
     <div className="app">
       <Header />
       <AboutProject />
+      <Footer />
     </div>
   );
 }
