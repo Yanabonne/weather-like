@@ -1,0 +1,23 @@
+.cloud-button__cloud {
+  outline: none;
+  border: none;
+  background-size: cover;
+  width: 500px;
+  height: 500px;
+  background-color: #1b1c1e;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("../../images/cloud-no-rain.svg");
+  text-align: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 1.25;
+  padding: 50px 70px 80px;
+  box-sizing: border-box;
+}
+
+.cloud-button__cloud:hover {
+  background-image: url("../../images/cloud-rain.svg");
+}

@@ -1,8 +1,9 @@
 .about-us {
   display: flex;
   align-items: center;
-  margin: 40px 0;
+  margin: 40px auto;
   flex-direction: column;
+  max-width: 900px;
 }
 
 .about-us__title {
@@ -16,7 +17,7 @@
 
 .about-us__description {
   text-align: center;
-  width: 800px;
+  width: 85%;
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
