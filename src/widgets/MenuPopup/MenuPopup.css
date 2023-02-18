@@ -1,0 +1,32 @@
+.menu {
+  background-color: #8eafc5;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 40px;
+  margin: 15px 0 0 15px;
+  box-sizing: border-box;
+  width: 400px;
+  border-radius: 5px;
+  padding: 50px 25px 25px 0;
+  z-index: 2;
+}
+
+.menu_closed {
+    display: none;
+}
+
+.menu__link {
+  text-align: right;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 1.25;
+  max-width: 250px;
+  color: #1b1c1e;
+  text-decoration: none;
+}

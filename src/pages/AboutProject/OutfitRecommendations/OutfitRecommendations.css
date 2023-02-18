@@ -1,0 +1,10 @@
+.outfit {
+    width: 1260px;
+    margin: 40px auto;
+  }
+  
+  @media screen and (max-width: 1280px) {
+    .outfit {
+      width: 100%;
+    }
+  }

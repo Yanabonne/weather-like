@@ -1,0 +1,24 @@
+.clothes {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  align-items: center;
+  gap: 20px;
+}
+
+.clothes__title {
+  font-size: 45px;
+  line-height: 1.25;
+  margin: 0;
+}
+
+.clothes__text {
+  margin: 20px 0 0;
+  font-size: 26px;
+  line-height: 1.25;
+}
+
+.clothes__option {
+  font-size: 20px;
+  line-height: 1.25;
+}

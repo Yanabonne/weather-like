@@ -8,6 +8,7 @@
   width: 1280px;
   border-bottom: 1px #d5d9d4 solid;
   max-width: 1260px;
+  position: relative;
 }
 
 .header__logo {
@@ -17,7 +18,7 @@
 }
 
 .header__burger {
-  background-color: #1b1c1e;
+  background: none;
   outline: none;
   border: none;
   height: 45px;
@@ -26,6 +27,7 @@
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
+  z-index: 2;
 }
 
 .header__burger_active {
