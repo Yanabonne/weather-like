@@ -1,6 +1,10 @@
 .outfit {
     width: 1260px;
     margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
   }
   
   @media screen and (max-width: 1280px) {

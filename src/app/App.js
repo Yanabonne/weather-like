@@ -3,8 +3,8 @@ import "./App.css";
 import { Routes, Route, Navigate } from "react-router-dom";
 
 import Header from "../widgets/Header/Header.js";
-import AboutProject from "../pages/AboutProject/AboutProject/AboutProject.js";
-import OutfitRecommendations from "../pages/AboutProject/OutfitRecommendations/OutfitRecommendations";
+import AboutProject from "../pages/AboutProject/AboutProject.js";
+import OutfitRecommendations from "../pages/OutfitRecommendations/OutfitRecommendations";
 import Footer from "../widgets/Footer/Footer";
 import { getWeather } from "../shared/Api/Api";
 
