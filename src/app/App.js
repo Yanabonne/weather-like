@@ -6,7 +6,6 @@ import Header from "../widgets/Header/Header.js";
 import AboutProject from "../pages/AboutProject/AboutProject.js";
 import OutfitRecommendations from "../pages/OutfitRecommendations/OutfitRecommendations";
 import Footer from "../widgets/Footer/Footer";
-import { getWeather } from "../shared/Api/Api";
 
 function App() {
   React.useEffect(() => {
@@ -14,16 +13,6 @@ function App() {
       document.body.style.cssText = `--scrollTop: ${window.scrollY}px`;
     });
   }, []);
-
-  // React.useEffect(() => {
-  //   getWeather()
-  //   .then((res) => {
-  //     console.log(res)
-  //   })
-  //   .catch((err) => {
-  //     console.log(err);
-  //   });
-  // }, []);
 
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
 

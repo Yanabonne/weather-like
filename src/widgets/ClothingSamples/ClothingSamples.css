@@ -1,0 +1,17 @@
+.samples {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.samples__title {
+  margin: 0 0 10px;
+  font-size: 35px;
+  line-height: 1.25;
+  font-weight: 900;
+}
+
+.samples__clothes {
+  height: 70px;
+}

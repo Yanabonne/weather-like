@@ -1,12 +1,11 @@
 .weather {
-  max-width: 900px;
   border: solid 1px #d5d9d4;
   border-radius: 5px;
   padding: 20px;
   box-sizing: border-box;
   position: relative;
   overflow: hidden;
-  margin-bottom: 1000px;
+  width: 750px;
 }
 
 .weather__title {
@@ -36,7 +35,6 @@
 .weather__two-columns {
     display: flex;
     justify-content: space-between;
-    gap: 100px;
 }
 
 .weather__column {

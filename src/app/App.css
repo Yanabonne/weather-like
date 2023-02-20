@@ -1,3 +1,7 @@
+body {
+  background-color: #1b1c1e;
+}
+
 .app {
   background-color: #1b1c1e;
   display: flex;
