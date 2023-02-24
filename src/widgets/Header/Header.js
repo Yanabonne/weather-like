@@ -1,10 +1,15 @@
 import "./Header.css";
+import { useNavigate } from "react-router-dom";
 import logo from "../../images/logo.svg";
 import MenuPopup from "../MenuPopup/MenuPopup";
 import React from "react";
 
 function Header({handleMenuButtonClick, isMenuOpen}) {
+  const navigate = useNavigate(); 
   
+  function navigateToMainPage() {
+    navigate('/pogodka');
+  }
 
   return (
     <header className="header">
@@ -16,7 +21,7 @@ function Header({handleMenuButtonClick, isMenuOpen}) {
         }`}
         onClick={handleMenuButtonClick}
       ></button>
-      <img className="header__logo" alt="Лого" src={logo}></img>
+      <img className="header__logo" alt="Лого" src={logo} onClick={navigateToMainPage} ></img>
     </header>
   );
 }
