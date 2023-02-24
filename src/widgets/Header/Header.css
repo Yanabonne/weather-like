@@ -28,6 +28,7 @@
   background-position: center;
   background-repeat: no-repeat;
   z-index: 2;
+  will-change: background-image;
 }
 
 .header__burger_active {

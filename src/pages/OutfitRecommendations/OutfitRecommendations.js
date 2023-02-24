@@ -62,7 +62,7 @@ function OutfitRecommendations() {
   return (
     <div className="outfit">
       <Clothes onButtonClick={handleRecommendationButtonClick}/>
-      {isRecommendationOpen && <Weather weatherData={weatherData} isUmbrellaNeeded={isUmbrellaNeeded} />}
+      {isRecommendationOpen && <Weather weatherData={weatherData} isUmbrella={true} isPressure={false} isUmbrellaNeeded={isUmbrellaNeeded} />}
       {isRecommendationOpen && <ClothingSamples weatherGroup={weatherGroup} />}
     </div>
   );

@@ -1,6 +1,6 @@
 import "./Weather.css";
 
-function Weather({weatherData, isUmbrellaNeeded}) {
+function Weather({weatherData, isUmbrellaNeeded, isUmbrella, isPressure}) {
   return (
     <section className="weather">
       <div className="weather__background"></div>
@@ -22,9 +22,12 @@ function Weather({weatherData, isUmbrellaNeeded}) {
           <p className="weather__info">
             Скорость ветра <span className="weather__span">{Math.round(weatherData.wind.speed)} м/с</span>
           </p>
-          <p className="weather__info">
+          {isUmbrella && <p className="weather__info">
             Зонт: <span className="weather__span">{isUmbrellaNeeded ? "нужен" : "не нужен"}</span>
-          </p>
+          </p>}
+          {isPressure && <p className="weather__info">
+            Давление <span className="weather__span">{weatherData.main.pressure} гПа</span>
+          </p>}
         </div>
       </div>
     </section>

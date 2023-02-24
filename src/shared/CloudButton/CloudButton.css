@@ -17,6 +17,7 @@
   padding: 50px 70px 80px;
   box-sizing: border-box;
   color: #1b1c1e;
+  will-change: background-image;
 }
 
 .cloud-button__cloud:hover {

@@ -1,0 +1,21 @@
+.select {
+  display: flex;
+  gap: 80px;
+}
+
+.select__button {
+  background-color: #d5d9d4;
+  outline: none;
+  color: #1b1c1e;
+  border-radius: 5px;
+  width: 270px;
+  font-size: 26px;
+  line-height: 1.25;
+  font-weight: 900;
+  padding: 10px 0;
+}
+
+.select__button_active {
+  background-color: #8eafc5;
+  text-decoration: underline;
+}

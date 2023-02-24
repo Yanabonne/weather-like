@@ -1,0 +1,16 @@
+.go-out {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 40px 0;
+  gap: 50px;
+}
+
+.go-out__result {
+  font-size: 45px;
+  line-height: 1.25;
+  margin: 0;
+  font-weight: 900;
+  max-width: 500px;
+  text-align: center;
+}

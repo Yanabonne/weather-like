@@ -10,7 +10,7 @@ function MenuPopup({isOpen}) {
       <NavLink to="/how-to-dress" className="menu__link">
       Как одеться по погоде?
       </NavLink>
-      <NavLink to="/leave-the-room" className="menu__link">
+      <NavLink to="/go-out" className="menu__link">
       Выйти ли мне на улицу?
       </NavLink>
     </nav>
