@@ -54,3 +54,7 @@ export const weatherGroups = {
         description: "Пример одежды для температуры от плюс 24"
     }
 }
+
+export const randomAnswers = [
+    'Да', 'Нет', 'Даже не думай!', 'Спроси друга', 'Однозначно нет', 'Конечно да'
+]

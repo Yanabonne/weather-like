@@ -2,7 +2,8 @@ import React from "react";
 import "./GoOut.css";
 import SelectButtons from "../../widgets/SelectButtons/SelectButtons.js";
 import Clothes from "../../widgets/Clothes/Clothes.js";
-import Weather from "../../widgets/Weather/Weather";
+import Weather from "../../widgets/Weather/Weather.js";
+import RandomGoOut from "../../widgets/RandomGoOut/RandomGoOut.js";
 import { getWeatherByCity } from "../../shared/Api/Api.js";
 
 function GoOut() {
@@ -76,6 +77,7 @@ function GoOut() {
             : "Выходить на улицу не рекомендую"}
         </h2>
       )}
+      {isRandom && <RandomGoOut /> }
     </div>
   );
 }

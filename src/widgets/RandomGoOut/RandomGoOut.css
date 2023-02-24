@@ -1,0 +1,25 @@
+.random {
+  outline: none;
+  background: none;
+  border: none;
+  background-image: url(../../images/random-cloud.svg);
+  width: 500px;
+  height: 500px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 1.25;
+  padding: 165px 80px 80px;
+  box-sizing: border-box;
+  color: #1b1c1e;
+  will-change: background-image;
+}
+
+.random__raindrop {
+    background-image: url(../../images/random-cloud-rain.svg);
+}
