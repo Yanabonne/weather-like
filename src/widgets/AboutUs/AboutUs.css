@@ -4,6 +4,8 @@
   margin: 40px auto;
   flex-direction: column;
   max-width: 900px;
+  z-index: 1;
+  position: relative;
 }
 
 .about-us__title {

@@ -55,3 +55,18 @@
   will-change: transform;
   transform: translate3d(0, calc(var(--scrollTop) / 6), 0);
 }
+
+.weather__background_sun {
+  background-image: url('../../images/weather-background-sun.svg');
+  background-size: 400px;
+}
+
+.weather__background_cloud {
+  background-image: url('../../images/weather-background-cloud.svg');
+  background-size: 400px;
+}
+
+.weather__background_snow {
+  background-image: url('../../images/weather-background-snow.svg');
+  background-size: 400px;
+}

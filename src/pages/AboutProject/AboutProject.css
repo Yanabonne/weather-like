@@ -3,7 +3,7 @@
   background-repeat: repeat;
   background-size: 600px;
   overflow: hidden;
-  margin: 40px auto;
+  margin: 0 auto 40px;
 }
 
 @media screen and (max-width: 1280px) {
