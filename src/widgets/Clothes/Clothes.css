@@ -10,6 +10,7 @@
   line-height: 1.25;
   margin: 0;
   font-weight: 900;
+  text-align: center;
 }
 
 .clothes__text {
@@ -31,4 +32,26 @@
   line-height: 1.25;
   font-weight: 900;
   border-radius: 5px;
+}
+
+@media screen and (max-width: 600px) {
+  .clothes {
+    max-width: calc(100% - 15px);
+  }
+
+  .clothes__text {
+    font-size: 20px;
+  }
+
+  .clothes__title {
+    font-size: 30px;
+  }
+
+  .clothes__option {
+    font-size: 16px;
+  }
+
+  .clothes__button {
+    font-size: 20px;
+  }
 }

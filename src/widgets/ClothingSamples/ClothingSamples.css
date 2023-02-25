@@ -15,3 +15,16 @@
 .samples__clothes {
   height: 70px;
 }
+
+@media screen and (max-width: 800px) {
+  .samples__clothes {
+    height: 40px;
+    padding: 0 10px;
+  }
+
+  .samples__title {
+    text-align: center;
+    font-size: 26px;
+    max-width: calc(100% - 15px);
+  }
+}

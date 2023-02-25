@@ -20,6 +20,15 @@
   will-change: background-image;
 }
 
-.random__raindrop {
-    background-image: url(../../images/random-cloud-rain.svg);
+.random_raindrop {
+  background-image: url(../../images/random-cloud-rain.svg);
+}
+
+@media screen and (max-width: 600px) {
+  .random {
+    font-size: 24px;
+    width: 300px;
+    height: 300px;
+    padding-top: 130px;
+  }
 }

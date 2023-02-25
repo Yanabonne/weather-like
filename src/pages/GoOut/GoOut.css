@@ -14,3 +14,10 @@
   max-width: 500px;
   text-align: center;
 }
+
+@media screen and (max-width: 600px) {
+  .go-out__result {
+    font-size: 30px;
+    width: calc(100% - 15px);
+  }
+}

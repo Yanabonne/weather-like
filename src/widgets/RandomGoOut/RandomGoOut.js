@@ -21,7 +21,7 @@ function RandomGoOut() {
 
   return (
     <button
-      className={`${isRaindropSeen ? "random random__raindrop" : "random"}`}
+      className={`${isRaindropSeen ? "random random_raindrop" : "random"}`}
       onClick={onButtonClick}
     >
       {buttonText}
