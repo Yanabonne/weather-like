@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/weather-like/static/css/main.2d52c9e2.css",
-    "main.js": "/weather-like/static/js/main.02276a97.js",
+    "main.js": "/weather-like/static/js/main.f41aa031.js",
     "static/js/787.085c5dc8.chunk.js": "/weather-like/static/js/787.085c5dc8.chunk.js",
     "static/media/Inter-Medium.woff": "/weather-like/static/media/Inter-Medium.9053572c46aeb4b16caa.woff",
     "static/media/Inter-Black.woff": "/weather-like/static/media/Inter-Black.c6938660eec019fefd68.woff",
@@ -42,11 +42,11 @@
     "index.html": "/weather-like/index.html",
     "static/media/gmail.svg": "/weather-like/static/media/gmail.fea457f316dda6ad554c.svg",
     "main.2d52c9e2.css.map": "/weather-like/static/css/main.2d52c9e2.css.map",
-    "main.02276a97.js.map": "/weather-like/static/js/main.02276a97.js.map",
+    "main.f41aa031.js.map": "/weather-like/static/js/main.f41aa031.js.map",
     "787.085c5dc8.chunk.js.map": "/weather-like/static/js/787.085c5dc8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2d52c9e2.css",
-    "static/js/main.02276a97.js"
+    "static/js/main.f41aa031.js"
   ]
 }
