@@ -13,6 +13,12 @@
   line-height: 1.25;
   font-weight: 900;
   padding: 10px 0;
+  transition: opacity 1s ease;
+  cursor: pointer;
+}
+
+.select__button:hover {
+  opacity: 0.6;
 }
 
 .select__button_active {

@@ -33,6 +33,12 @@
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+  transition: opacity 1s ease;
+  cursor: pointer;
+}
+
+.footer__icon:hover {
+  opacity: 0.6;
 }
 
 .footer__icon_github {

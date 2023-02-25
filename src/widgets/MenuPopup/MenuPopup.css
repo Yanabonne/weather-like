@@ -16,7 +16,7 @@
 }
 
 .menu_closed {
-    display: none;
+  display: none;
 }
 
 .menu__link {
@@ -29,6 +29,11 @@
   max-width: 250px;
   color: #1b1c1e;
   text-decoration: none;
+  transition: text-decoration 1s ease;
+}
+
+.menu__link:hover {
+  text-decoration: underline;
 }
 
 @media screen and (max-width: 600px) {

@@ -15,6 +15,7 @@
   height: 75px;
   margin: 0 505px 0 auto;
   align-self: flex-end;
+  cursor: pointer;
 }
 
 .header__burger {
@@ -29,6 +30,7 @@
   background-repeat: no-repeat;
   z-index: 2;
   will-change: background-image;
+  cursor: pointer;
 }
 
 .header__burger_active {
