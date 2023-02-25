@@ -43,7 +43,7 @@ function Weather({ weatherData, isUmbrellaNeeded, isUmbrella, isPressure }) {
           <p className="weather__info">
             Влажность{" "}
             <span className="weather__span">
-              {Math.round(weatherData.main.humidity)} %
+              {Math.round(weatherData.main.humidity)}%
             </span>
           </p>
           <p className="weather__info">

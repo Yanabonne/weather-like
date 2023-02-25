@@ -43,10 +43,10 @@ function App() {
     >
       <Header handleMenuButtonClick={handleMenuButtonClick} isMenuOpen={isMenuOpen} />
       <Routes>
-        <Route path="/weather-like/pogodka" element={<AboutProject />} />
-        <Route path="/weather-like/how-to-dress" element={<OutfitRecommendations />} />
-        <Route path="/weather-like/go-out" element={<GoOut />} />
-        <Route path="*" element={<Navigate to="/weather-like/pogodka" />} />
+        <Route path="pogodka" element={<AboutProject />} />
+        <Route path="how-to-dress" element={<OutfitRecommendations />} />
+        <Route path="go-out" element={<GoOut />} />
+        <Route path="*" element={<Navigate to="pogodka" />} />
       </Routes>
       <Footer />
     </div>

@@ -6,12 +6,12 @@ function CloudButtons() {
   const navigate = useNavigate(); 
 
   function navigateToClothes() {
-    navigate('/weather-like/how-to-dress');
+    navigate('/how-to-dress');
     window.scrollTo(0, 0);
   }
 
   function navigateToGoOut() {
-    navigate('go-out');
+    navigate('/go-out');
     window.scrollTo(0, 0);
   }
 
