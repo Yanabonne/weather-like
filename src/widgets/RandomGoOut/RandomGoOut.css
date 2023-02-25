@@ -17,7 +17,8 @@
   padding: 165px 80px 80px;
   box-sizing: border-box;
   color: #1b1c1e;
-  will-change: background-image;
+  transition: background-image 0.3s ease;
+  cursor: pointer;
 }
 
 .random_raindrop {
