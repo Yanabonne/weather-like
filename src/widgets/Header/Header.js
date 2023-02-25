@@ -8,7 +8,7 @@ function Header({handleMenuButtonClick, isMenuOpen}) {
   const navigate = useNavigate(); 
   
   function navigateToMainPage() {
-    navigate('/pogodka');
+    navigate('/weather-like/pogodka');
   }
 
   return (
