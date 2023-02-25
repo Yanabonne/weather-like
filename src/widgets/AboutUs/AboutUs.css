@@ -15,6 +15,7 @@
   font-weight: 900;
   font-size: 40px;
   line-height: 1.25;
+  margin: 20px 0;
 }
 
 .about-us__description {
@@ -25,4 +26,16 @@
   font-weight: 500;
   font-size: 30px;
   line-height: 1.25;
+  margin: 20px 0;
+}
+
+@media screen and (max-width: 600px) {
+  .about-us__title {
+    font-size: 30px;
+  }
+
+  .about-us__description {
+    font-size: 20px;
+    margin-top: 0;
+  }
 }

@@ -52,3 +52,14 @@
     width: 100%;
   }
 }
+
+@media screen and (max-width: 600px) {
+  .footer__icon {
+    width: 35px;
+    height: 35px;
+  }
+
+  .footer__author {
+    font-size: 18px;
+  }
+}

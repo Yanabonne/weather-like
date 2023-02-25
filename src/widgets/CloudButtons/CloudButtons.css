@@ -13,3 +13,9 @@
   font-size: 40px;
   line-height: 1.25;
 }
+
+@media screen and (max-width: 600px) {
+  .cloud-buttons__title {
+    font-size: 30px;
+  }
+}
