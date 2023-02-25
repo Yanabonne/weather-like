@@ -5,7 +5,20 @@ function Clothes({onButtonClick}) {
   const cityRef = React.useRef();
   const wellbeingRef = React.useRef();
 
+  React.useEffect(() => {
+    if (localStorage.getItem('city')) {
+      cityRef.current.value = localStorage.getItem('city');
+    };
+
+    if (localStorage.getItem('wellbeing')) {
+      wellbeingRef.current.value = localStorage.getItem('wellbeing');
+    };
+  }, [])
+
+
   function handleButtonClick() {
+    localStorage.setItem('city', cityRef.current.value);
+    localStorage.setItem('wellbeing', wellbeingRef.current.value);
     onButtonClick(cityRef.current.value, wellbeingRef.current.value);
   }
 
