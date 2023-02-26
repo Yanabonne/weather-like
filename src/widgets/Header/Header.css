@@ -52,7 +52,7 @@
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
   .header__burger {
     height: 30px;
     width: 40px;

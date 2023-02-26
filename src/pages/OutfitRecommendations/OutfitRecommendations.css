@@ -1,14 +1,21 @@
 .outfit {
-    width: 1260px;
-    margin: 40px auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 50px;
+  width: 1260px;
+  margin: 40px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  min-height: calc(100vh - 370px);
+}
+
+@media screen and (max-width: 1280px) {
+  .outfit {
+    width: 100%;
   }
-  
-  @media screen and (max-width: 1280px) {
-    .outfit {
-      width: 100%;
-    }
+}
+
+@media screen and (max-width: 600px) {
+  .outfit {
+    min-height: calc(100vh - 315px);
   }
+}

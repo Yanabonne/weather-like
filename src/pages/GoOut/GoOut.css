@@ -4,6 +4,7 @@
   flex-direction: column;
   margin: 40px 0;
   gap: 50px;
+  min-height: calc(100vh - 370px);
 }
 
 .go-out__result {
@@ -16,6 +17,10 @@
 }
 
 @media screen and (max-width: 600px) {
+  .go-out {
+    min-height: calc(100vh - 315px);
+  }
+
   .go-out__result {
     font-size: 30px;
     width: calc(100% - 15px);
