@@ -1,4 +1,8 @@
 .random {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
   outline: none;
   background: none;
   border: none;
@@ -19,6 +23,7 @@
   color: #1b1c1e;
   transition: background-image 0.3s ease;
   cursor: pointer;
+  will-change: background-image;
 }
 
 .random_raindrop {

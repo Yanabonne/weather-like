@@ -19,6 +19,10 @@
 }
 
 .header__burger {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
   background: none;
   outline: none;
   border: none;

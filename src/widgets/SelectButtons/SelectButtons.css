@@ -4,6 +4,10 @@
 }
 
 .select__button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
   background-color: #d5d9d4;
   outline: none;
   color: #1b1c1e;

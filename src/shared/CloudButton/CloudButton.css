@@ -1,4 +1,8 @@
 .cloud-button__cloud {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
   outline: none;
   border: none;
   background-size: cover;
@@ -19,6 +23,7 @@
   color: #1b1c1e;
   transition: background-image 0.3s ease;
   cursor: pointer;
+  will-change: background-image;
 }
 
 .cloud-button__cloud:hover {
