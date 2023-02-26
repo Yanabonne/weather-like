@@ -16,6 +16,7 @@
   margin: 0 505px 0 auto;
   align-self: flex-end;
   cursor: pointer;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 
 .header__burger {

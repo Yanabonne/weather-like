@@ -21,9 +21,6 @@
 }
 
 .clothes__option {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
   color: #1b1c1e;
   font-size: 20px;
   line-height: 1.25;

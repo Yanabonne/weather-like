@@ -21,13 +21,13 @@
   padding: 165px 80px 80px;
   box-sizing: border-box;
   color: #1b1c1e;
-  transition: background-image 0.3s ease;
+  transition: color 1s ease;
   cursor: pointer;
-  will-change: background-image;
+  will-change: color;
 }
 
-.random_raindrop {
-  background-image: url(../../images/random-cloud-rain.svg);
+.random_no-text {
+  color: #d5d9d4;
 }
 
 @media screen and (max-width: 600px) {
