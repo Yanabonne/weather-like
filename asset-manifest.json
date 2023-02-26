@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/weather-like/static/css/main.3942a9a2.css",
+    "main.css": "/weather-like/static/css/main.efdf9d03.css",
     "main.js": "/weather-like/static/js/main.2875bcc3.js",
     "static/js/787.085c5dc8.chunk.js": "/weather-like/static/js/787.085c5dc8.chunk.js",
     "static/media/Inter-Medium.woff": "/weather-like/static/media/Inter-Medium.9053572c46aeb4b16caa.woff",
@@ -40,12 +40,12 @@
     "static/media/tg.svg": "/weather-like/static/media/tg.2f659153721ad736ebc5.svg",
     "index.html": "/weather-like/index.html",
     "static/media/gmail.svg": "/weather-like/static/media/gmail.fea457f316dda6ad554c.svg",
-    "main.3942a9a2.css.map": "/weather-like/static/css/main.3942a9a2.css.map",
+    "main.efdf9d03.css.map": "/weather-like/static/css/main.efdf9d03.css.map",
     "main.2875bcc3.js.map": "/weather-like/static/js/main.2875bcc3.js.map",
     "787.085c5dc8.chunk.js.map": "/weather-like/static/js/787.085c5dc8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3942a9a2.css",
+    "static/css/main.efdf9d03.css",
     "static/js/main.2875bcc3.js"
   ]
 }
