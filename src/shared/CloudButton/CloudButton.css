@@ -26,6 +26,8 @@
   will-change: background-image;
 }
 
-.cloud-button__cloud:hover {
-  background-image: url("../../images/cloud-rain.svg");
+@media screen and (min-width: 900px) {
+  .cloud-button__cloud:hover {
+    background-image: url("../../images/cloud-rain.svg");
+  }
 }

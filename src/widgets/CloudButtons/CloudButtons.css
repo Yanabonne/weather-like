@@ -24,6 +24,7 @@
 @media screen and (max-width: 900px) {
   .cloud-buttons__clouds {
     flex-direction: column;
+    margin-top: 20px;
   }
 }
 
