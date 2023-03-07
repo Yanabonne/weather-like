@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://media.giphy.com/media/l41lJbSQXQbjYQgOA/giphy.gif" width="100"/>
+  <img src="https://media.giphy.com/media/l41lJbSQXQbjYQgOA/giphy.gif" width="120"/>
 </div>
 
 # Проект: Погодка
