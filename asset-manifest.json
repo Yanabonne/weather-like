@@ -1,8 +1,17 @@
 {
   "files": {
-    "main.css": "/weather-like/static/css/main.4dd9c337.css",
-    "main.js": "/weather-like/static/js/main.2875bcc3.js",
+    "main.css": "/weather-like/static/css/main.5d0bd863.css",
+    "main.js": "/weather-like/static/js/main.f888b4c3.js",
     "static/js/787.085c5dc8.chunk.js": "/weather-like/static/js/787.085c5dc8.chunk.js",
+    "static/media/5.png": "/weather-like/static/media/5.9c053ed021725b1fd469.png",
+    "static/media/6.png": "/weather-like/static/media/6.45e396d0481e85785ad5.png",
+    "static/media/2.jpg": "/weather-like/static/media/2.455efc8832feb228c9d7.jpg",
+    "static/media/3.jpg": "/weather-like/static/media/3.f5f48e3a5a7798e79963.jpg",
+    "static/media/5.webp": "/weather-like/static/media/5.9c52e93604db3278e645.webp",
+    "static/media/1.jpg": "/weather-like/static/media/1.e9a38b5d00a6bea3c71f.jpg",
+    "static/media/6.jpg": "/weather-like/static/media/6.1bbfdafc083c22b99409.jpg",
+    "static/media/4.jpg": "/weather-like/static/media/4.b5c93c2664cde2a3b72a.jpg",
+    "static/media/5.jpg": "/weather-like/static/media/5.874c76be5d7cd515994b.jpg",
     "static/media/Inter-Medium.woff": "/weather-like/static/media/Inter-Medium.9053572c46aeb4b16caa.woff",
     "static/media/Inter-Black.woff": "/weather-like/static/media/Inter-Black.c6938660eec019fefd68.woff",
     "static/media/Inter-Regular.woff": "/weather-like/static/media/Inter-Regular.8c206db99195777c6769.woff",
@@ -40,12 +49,12 @@
     "static/media/tg.svg": "/weather-like/static/media/tg.2f659153721ad736ebc5.svg",
     "index.html": "/weather-like/index.html",
     "static/media/gmail.svg": "/weather-like/static/media/gmail.fea457f316dda6ad554c.svg",
-    "main.4dd9c337.css.map": "/weather-like/static/css/main.4dd9c337.css.map",
-    "main.2875bcc3.js.map": "/weather-like/static/js/main.2875bcc3.js.map",
+    "main.5d0bd863.css.map": "/weather-like/static/css/main.5d0bd863.css.map",
+    "main.f888b4c3.js.map": "/weather-like/static/js/main.f888b4c3.js.map",
     "787.085c5dc8.chunk.js.map": "/weather-like/static/js/787.085c5dc8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4dd9c337.css",
-    "static/js/main.2875bcc3.js"
+    "static/css/main.5d0bd863.css",
+    "static/js/main.f888b4c3.js"
   ]
 }
